@@ -816,24 +816,7 @@ div.maestros .tarjeta .btn2{
 
 /* AMONESTACION */
 
-.pantalla-amonestacion{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 16px;
-    background-color: #e6e8ee;
-}
 
-.amonestacion-card{
-    width: min(360px, 95vw);
-    border-radius: 32px;
-    padding: 28px 22px 26px;
-    background: linear-gradient(135deg, #ff3b2e 0%, #cf0c0c 45%, #b50000 100%);
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 22px 45px rgba(0, 0, 0, 0.25);
-}
 
 .amonestacion-card::before{
     content: "";
@@ -859,26 +842,8 @@ div.maestros .tarjeta .btn2{
     margin-bottom: 10px;
 }
 
-.amonestacion-titulo{
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-}
-
-.amonestacion-etiqueta{
-    font-size: 13px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.amonestacion-encabezado h1{
-    font-size: 22px;
-    font-weight: 700;
-    font-style: italic;
-}
-
-.amonestacion-encabezado .logo-playpokemon{
+/* logo play-pokemon*/
+.logo-playpokemon{
     width: 38px;
     height: 38px;
     object-fit: contain;
@@ -894,7 +859,6 @@ div.maestros .tarjeta .btn2{
 
 .amonestacion-formulario{
     position: relative;
-    z-index: 1;
     margin-top: 16px;
     background-color: #f6f6f7;
     border-radius: 20px;
@@ -928,10 +892,6 @@ div.maestros .tarjeta .btn2{
     outline: none;
 }
 
-.amonestacion-formulario textarea{
-    resize: none;
-}
-
 .amonestacion-formulario .acciones{
     display: flex;
     gap: 10px;
@@ -939,23 +899,19 @@ div.maestros .tarjeta .btn2{
     margin-top: 6px;
 }
 
-.amonestacion-formulario .btn{
+.btn-aplicar{
+    background-color: #E3282A;
     border: none;
-    border-radius: 999px;
-    padding: 8px 18px;
-    font-size: 13px;
-    font-weight: 700;
-    color: #fff;
-    cursor: pointer;
+    color: white;
+    
 }
 
-.amonestacion-formulario .btn-primario{
-    background-color: #e41c1c;
+.btn-cancelar{
+    background-color: #b0b0b0;
+    border: none;
+    color: white;
 }
 
-.amonestacion-formulario .btn-secundario{
-    background-color: #9c9c9c;
-}
 /*p51*/
 .edit-profpic{
     position: relative;
